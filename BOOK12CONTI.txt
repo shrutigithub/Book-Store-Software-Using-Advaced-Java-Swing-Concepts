@@ -1,0 +1,20 @@
+JLabel lname=new JLabel("Enter your name");
+JLabel lbooks=new JLabel("Book Selected");
+JLabel lpay=new JLabel("Payment Mode");
+JLabel ltcost=new JLabel("Total Amount to be paid");
+Jlabel lcard=new JLabel("Enter your Card Number");
+JTextField tcard=new JTextField(20);
+JLabel ladd=new JLabel("Enter your address");
+JTextField tname=new JTextField(20);
+JTextField tbooks=new JTextField(20);
+tbooks.setEditable(false);
+JTextField ttcost=new JTextField(20);
+ttcost.setEditable(false);
+JRadioButton rcash=new JRadioButton("Cash On Delivery");
+JRadioButton rbank=new JRadioButton("Online Banking");
+ButtonGroup bg=new ButtonGroup();
+bg.add(rcash);
+bg.add(rbank);
+JTextArea tadd=new JTextArea(5,10);
+JButton bpay=new JButton("Pay");
+
